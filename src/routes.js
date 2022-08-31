@@ -1,9 +1,9 @@
 function botRouteSetup(bot) {
-  // Just to ping!
-  bot.on('message', function onMessage(msg) {
-    bot.sendMessage(msg.chat.id, 'I am alive on Heroku!');
+  // Matches /ping
+  bot.onText(/\/ping/, msg => {
+    bot.sendMessage(msg.chat.id, 'Abhi apan Zinda hai...');
   });
-  
+
   // Matches /education
   bot.onText(/\/education/, msg => {
     bot.sendMessage(msg.chat.id, 'Apan bohot pada likha hai');

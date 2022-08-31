@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "develop": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgr8akki/telegram-bot-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgr8akki/telegram-bot-portfolio/issues"
+  },
+  "homepage": "https://github.com/dgr8akki/telegram-bot-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-telegram-bot-api": "^0.59.0",
+    "nodemon": "^2.0.19"
+  }
+}
